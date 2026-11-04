@@ -58,6 +58,7 @@
     <main class="hero">
     
         <div class="hero__text">
+            <img src="./src/images/repuestos.png" alt="Repuestos de carro" class="hero__repuestos">
             <h2>Encuentra el repuesto exacto sin dar vueltas</h2>
             <p>Localiza al instante piezas originales y alternativas en las tiendas más confiables de Quito. Verifica el inventario en tiempo real y asegura la pieza antes de salir de casa</p>
 
@@ -84,25 +85,81 @@
                     <option value="2023">2023</option>
                 </select>
 
-                <button type="button" class="button hero__button">Buscar</button>
+                <a href="" class="hero__button">Buscar</a>
             </form>
         </div>
 
-    <div class="hero__img">
-        <img src="./src/images/bateria.png" alt="Baterías Ecuador" loading="lazy">
-    </div>
+        <div class="hero__carrusel">
+            <div class="hero__img">
+                <img src="./src/images/bateria.png" alt="Baterías Ecuador" loading="lazy">
+            </div>
+
+            <a href="" class="button hero__img__button">Destacados de la semana</a>
+        </div>
 
 
     </main>
 
     <!-- End - Section Main -->
     
-
     <!-- Start - Section About -->
     <!-- End - Section About -->
 
 
     <!-- Start - Section Services -->
+    <section class="services container">
+        <div class="services__grid">
+
+            <!-- Tarjeta 1: Frenos -->
+            <article class="services__card">
+                <div class="services__img-box">
+                    <img src="./src/images/frenos.png" alt="Sistema de Frenos" class="services__img" loading="lazy">
+                </div>
+                <h3 class="services__title">Sistema de Frenos</h3>
+                <p class="services__description">
+                    Pastillas, discos, líquidos y repuestos esenciales para garantizar tu seguridad en cada frenada.
+                </p>
+                <a href="#" class="services__button">Ver</a>
+            </article>
+
+            <!-- Tarjeta 2: Suspensión y Dirección -->
+            <article class="services__card">
+                <div class="services__img-box">
+                    <img src="./src/images/suspension.png" alt="Suspensión y Dirección" class="services__img" loading="lazy">
+                </div>
+                <h3 class="services__title">Suspensión y Dirección</h3>
+                <p class="services__description">
+                    Amortiguadores, rótulas y terminales para mantener la máxima estabilidad y confort en la vía
+                </p>
+                <a href="#" class="services__button">Ver</a>
+            </article>
+
+            <!-- Tarjeta 3: Motor y Enfriamiento -->
+            <article class="services__card">
+                <div class="services__img-box">
+                    <img src="./src/images/motor.png" alt="Motor y Enfriamiento" class="services__img" loading="lazy">
+                </div>
+                <h3 class="services__title">Motor y Enfriamiento</h3>
+                <p class="services__description">
+                    Radiadores, bandas, bombas y piezas vitales para asegurar el máximo rendimiento de tu máquina
+                </p>
+                <a href="#" class="services__button">Ver</a>
+            </article>
+
+            <!-- Tarjeta 4: Sistema Eléctrico -->
+            <article class="services__card">
+                <div class="services__img-box">
+                    <img src="./src/images/bateria-servicios.png" alt="Sistema Eléctrico" class="services__img" loading="lazy">
+                </div>
+                <h3 class="services__title">Sistema Eléctrico</h3>
+                <p class="services__description">
+                    Baterías, alternadores, bujías y sensores para que tu vehículo nunca se quede sin energía
+                </p>
+                <a href="#" class="services__button">Ver</a>
+            </article>
+
+        </div>
+    </section>
     <!-- End - Section Services -->
 
 
